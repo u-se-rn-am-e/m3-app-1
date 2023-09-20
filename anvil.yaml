@@ -11,4 +11,10 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 startup_form: null
 native_deps: {head_html: ''}
+db_schema:
+  table_1:
+    client: none
+    server: full
+    columns: []
+    title: Table 1
 renamed: true

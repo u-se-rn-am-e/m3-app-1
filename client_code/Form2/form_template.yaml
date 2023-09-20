@@ -1,7 +1,7 @@
 container:
   type: HtmlTemplate
-  properties: {html: "<link rel=\"stylesheet\" href=\"_/theme/editor.css\" />\n<p>CKEditor</p>\n\
+  properties: {html: "<link rel=\"stylesheet\" href=\"_/theme/editor.css\" />\n<main>\n\
       <div id='#editor'></div>\n<script src=\"_/theme/ckeditor.js\"></script>\n<script>\n\
-      \  ClassicEditor.create(document.getElementById('#editor'))\n</script>"}
+      \  ClassicEditor.create(document.getElementById('#editor'))\n</script>\n</main>"}
 components: []
 is_package: true
